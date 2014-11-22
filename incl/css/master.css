@@ -1,0 +1,318 @@
+/**The Crux of the Matter!**/
+
+
+/**General XHTML Markup (body first, then alpha order)**/
+body{
+font-family: Arimo, sans-serif;
+color: #FFFFFF;
+text-align: center;
+background: #000000;
+font-size: 62.5%;
+}
+
+a{ color: #257CA6; }
+a:hover{ text-decoration: none; color: #79B5D3;}
+
+a img { border: none; }
+
+address{
+font-size: 1.55em;
+font-weight: bold; 
+}
+
+blockquote{
+font-weight: bold;
+font-style: italic;
+font-size: 1.55em;
+margin-left: 30px;
+line-height: 1.5em;
+}
+
+code{ 
+font-family: Courier, monospace;
+}
+
+dt{
+margin-left: 15px;
+font-weight: bold;
+}
+
+dd{
+margin: 15px 0 15px 30px;
+}
+
+dl.registry dt a{
+text-decoration: none;
+}
+
+dl.registry dt{
+font-size: 1.65em;
+font-weight: bold;
+}
+
+dl.registry dt a{
+color: #A63E23;
+}
+
+dl.registry dd{
+/* border-bottom: 1px solid #A63E23; */
+margin: 15px 0 30px 15px;
+padding: 0 0 15px 15px;
+font-size: 1.55em;
+}
+
+em{ font-style: italic; }
+
+form{
+text-align: left;
+font-size: 1.55em;
+}
+
+form div{
+margin: 15px 0;
+padding: 5px;
+}
+
+form div label{
+float: left;
+width: 250px;
+font-size: 1.55em; 
+}
+
+form div input, form div textarea{
+width: 270px;
+padding: 5px;
+font-size: 1.45em; 
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight: bold;
+margin: 15px;
+font-family: Oswald, sans-serif;
+}
+
+h1{ font-size: 3.6em;}
+
+h2{ font-size: 3.4em;}
+
+h3{ font-size: 3.0em;}
+
+h4{ font-size: 2.7em; }
+
+hr, .hide { display: none; }
+
+iframe{
+margin: 15px;
+border: 1px solid #000000;
+}
+
+p{ line-height: 1.5em; margin: 15px; font-size: 1.55em;}
+
+small{ font-size: 0.85em; }
+
+strong{ font-weight: bold; }
+
+ul li, ol li{
+margin: 15px 0 15px 30px;
+font-size: 1.55em;
+}
+
+
+/**LAYOUT STUFF (order of appearance)**/
+#container{
+margin: 0 auto;
+text-align: center;
+color: #666666;
+background: #96DDFF  url('img/bg.png');
+}
+
+/* #container{ background: #FFFFFF;}  */
+
+/****** Header Information ****/
+
+#header{
+color: #A63E23;
+font-weight: bold;
+margin-bottom: 45px;
+}
+
+#header h1{ float: left; margin: 15px 0 0 0; padding: 0; font-size: 4em;}
+#header h2{ float: right; margin: 15px 0 0 0; padding: 0; font-size: 4em;}
+
+#nav{
+background: #B2E6FF;
+text-align: center; 
+padding-top: 15px;
+font-size: 1.45em;
+padding-bottom: 5px;
+font-family: 'Josefin Sans Std Light', arial, serif;
+font-weight: bold;
+border-bottom: 1px solid #257CA6;
+}
+
+#nav ul{
+
+}
+
+#nav ul li{
+display: inline;
+margin: 0 15px;
+}
+
+#nav ul li a{
+text-decoration: none;
+}
+
+
+#main{ margin: 0 auto; text-align: left; width: 700px; text-shadow: 1px 1px -5px #FFF;}
+
+#main strong{ color: #A63E23; }
+
+
+form{
+margin: 0 15px;
+}
+
+form div input[type="radio"]{
+width: 20px;
+}
+
+form div input[type="submit"]{
+font-size: 1.3em;
+letter-spacing: 0.05em;
+text-align: center;
+width: 140px;
+background: #CFCFCF;
+border: 1px solid #999999;
+text-shadow: 1px 1px -5px #FFF;
+}
+
+
+form div input[type="submit"]:hover{
+cursor: pointer;
+border-bottom: 1px solid #FFFFFF;
+border-right: 1px solid #FFFFFF;
+}
+
+
+form.rsvp div#gname{ display: none; }
+
+.widget{ text-align: left; padding: 5px;}
+
+
+#footer{
+clear: both;
+text-align: center;
+color: #ffffff;
+font-size: 0.95em;
+margin-top: 30px;
+}
+
+#footer .deets{
+text-align: left; 
+margin: 15px auto;
+background: #FFFFFF;
+color: #000000;
+width: 700px;
+padding: 15px;
+border: 1px solid #CFCFCF;
+}
+
+#footer .deets h3{
+padding-bottom: 5px;
+border-bottom: 1px solid #CFCFCF;
+}
+
+#footer .deets a{
+text-decoration: none;
+}
+
+#footer p.siteby{
+padding: 15px 5px 0 0;
+margin: 0;
+text-align: right;
+color: #70A6BF;
+}
+
+#footer p.siteby a{ color: #70A6BF; }
+
+#footer ul li{
+display: inline;
+}
+
+/**GENERAL CLASSES (alpha order)**/
+.center{ text-align: center; }
+.center form{ margin: 0 auto; text-align: center; }
+.clear{ clear: both; }
+.left{ float: left; }
+.right{ float: right; }
+.img{ margin: 5px 5px 5px 30px; }
+
+.polaroid, .polaroid-right, .polaroid-left{
+border: 1px solid #CFCFCF;
+padding: 5px 5px 15px 5px;
+-moz-box-shadow: 0px 0px 9px #999; 
+-webkit-box-shadow: 0px 0px 9px #999; 
+box-shadow: 0px 0px 9px #999; 
+font-family: 'Reenie Beanie', Helvetica, sans-serif;
+text-align: center; 
+font-size: 1.5em;
+font-weight: bold;
+margin: 0 15px 5px 15px;
+color: #000000;
+background: #FFFFFF;
+text-shadow: none;
+}
+
+#home .polaroid, #home .polaroid img{
+max-width: 250px;
+}
+
+#home h3{
+line-height: 1.65em;
+}
+.polaroid-right{
+-webkit-transform:rotate(14deg);
+}
+
+.polaroid-left{
+-webkit-transform:rotate(-14deg);
+}
+
+
+
+.polaroid img{ border: 1px solid #CFCFCF; max-width: 650px;}
+
+.sig{
+font-family: 'Reenie Beanie', Helvetica, sans-serif;
+font-weight: bold;
+font-size: 2.5em;
+color: #000000;
+text-shadow: none;
+}
+
+div.lefthalf{ width: 49%; float: left;}
+div.righthalf{ margin-left: 49%;  }
+
+img.full{
+max-width: 100%;
+}
+
+img.half{
+max-width: 50%;
+}
+
+img.third{
+max-width: 33%;
+}
+
+
+/* self-clear floats */
+
+.group:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}

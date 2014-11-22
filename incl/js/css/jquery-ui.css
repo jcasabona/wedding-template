@@ -1,0 +1,3 @@
+/*****Additional Custom Accordion Styles*****/
+body #accordion li ul { display: none; }
+body #accordion li.current ul { display: block; }
